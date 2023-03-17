@@ -76,9 +76,6 @@ elsif script.vars[1] =~ /temp/
 elsif script.vars[1] == 'var'
     $mob_locations = MobLoca.new
     YAML.load_file(fpath).each { |r, mobs| $mob_locations[r] = mobs }
-    echo $mob_locations.class
-    echo $mob_locations.size
-    exit
     echo "Loaded #{$mob_locations.size} rooms of data about #{$mob_locations.values.flatten.uniq.size} mobs"
 elsif script.vars[1] == 'download'
     echo "You are requesting to download the latest mob data file from:"
