@@ -1,0 +1,101 @@
+require 'yaml'
+
+class MTest < Hash
+    def hi
+        echo 1
+    end
+end
+
+class MobLoca < Hash
+    def [](val)
+        if val.class == GameObj
+            return rooms_from_mob(val.name)
+        elsif val.class == Regexp
+            return rooms_from_mob(val)
+        elsif val.class == Map
+            return self.fetch(val.id)
+        end
+        return self.fetch(val)
+    end
+
+
+    def rooms_from_mob(mob)
+        rooms = self.select { |rid, mobs| mobs.any?(mob) }
+        return rooms
+    end
+
+end
+
+fname = 'mob_list_out_dict.yaml'
+fpath = File.join(DATA_DIR, fname)
+
+if !File.exist?(fpath) && Script.self.vars[1] != 'download'
+    echo "mob info yaml not found in data dir"
+    echo "file should be saved to: #{fpath}"
+    echo "You can issue: ;#{Script.name} download"
+    echo "to download"
+    exit
+end
+
+help = proc {
+    echo "valid options:"
+    echo "  var   - create $mob_locations var with all data"
+    echo "  tag   - add a MOB_LOC:<name> tag to every room"
+    echo "  untag - remove MOB_LOC tags"
+    echo "  temp  - kill xnarost if running, add tags."
+    echo "          when narost closes remove tags and"
+    echo "          relaunch (if was running originally)"
+    echo ""
+    echo "  download - download latest mob list from GitHub repo"
+    echo "             https://raw.githubusercontent.com/FarFigNewGut/mobs-by-room/main/mob_list_out_dict.yaml"
+}
+
+tagger = proc {
+    ml = YAML.load_file(fpath)
+    ml.each { |rid, mobs|
+        Room[rid].tags += mobs.map { |m| "MOB_LOC:#{m}" }
+    }
+    echo "Tagged #{ml.size} rooms"
+}
+
+untagger = proc {
+    Room.list.each { |r| r.tags.delete_if { |t| t =~ /^MOB_LOC:/ } }
+    echo "All rooms untagged"
+}
+
+if script.vars[1].nil?
+    help.call()
+elsif script.vars[1] == 'tag'
+    tagger.call()
+elsif script.vars[1] == 'untag'
+    untagger.call()
+elsif script.vars[1] =~ /temp/
+    restart_map = false
+    if Script.running?("xnarost")
+        Script.kill("xnarost")
+        restart_map = true
+    end
+    tagger.call()
+    Script.run("xnarost")
+    untagger.call()
+    Script.start("xnarost") if restart_map
+elsif script.vars[1] == 'var'
+    $mob_locations = MobLoca.new
+    YAML.load_file(fpath).each { |r, mobs| $mob_locations[r] = mobs }
+    echo $mob_locations.class
+    echo $mob_locations.size
+    exit
+    echo "Loaded #{$mob_locations.size} rooms of data about #{$mob_locations.values.flatten.uniq.size} mobs"
+elsif script.vars[1] == 'download'
+    echo "You are requesting to download the latest mob data file from:"
+    echo "     https://raw.githubusercontent.com/FarFigNewGut/mobs-by-room/main/mob_list_out_dict.yaml"
+    echo "Unpause to continue..."
+    Script.pause
+    require 'open-uri'
+    open(fpath, 'wb') do |file|
+        file << open('https://raw.githubusercontent.com/FarFigNewGut/mobs-by-room/main/mob_list_out_dict.yaml').read
+    end
+    echo "Download complete"
+else
+    help.call()
+end
