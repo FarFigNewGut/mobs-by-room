@@ -1,11 +1,5 @@
 require 'yaml'
 
-class MTest < Hash
-    def hi
-        echo 1
-    end
-end
-
 class MobLoca < Hash
     def [](val)
         if val.class == GameObj
