@@ -26,7 +26,7 @@ fpath = File.join(DATA_DIR, fname)
 if !File.exist?(fpath) && Script.self.vars[1] != 'download'
     echo "mob info yaml not found in data dir"
     echo "file should be saved to: #{fpath}"
-    echo "You can issue: ;#{Script.name} download"
+    echo "You can issue: ;#{Script.current.name} download"
     echo "to download"
     exit
 end
