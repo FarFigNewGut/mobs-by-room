@@ -8,6 +8,13 @@ class MobLoca < Hash
             return rooms_from_mob(val)
         elsif val.class == Map
             return self.fetch(val.id)
+        elsif val.class == String
+            val.strip!
+            if val =~ /^(\d+)$/
+                return self.fetch($1.to_i)
+            else
+                return rooms_from_mob(val)
+            end
         end
         return self.fetch(val)
     end
