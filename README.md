@@ -7,5 +7,4 @@ Values by room:
 - ["list", "of", "mobs"] - all mobs returned by track
 
 Known Issues:
-- missing FWI
-- missing cavernhold
+- None, but i'm sure there are some problems! May the odds be ever in your favor.
