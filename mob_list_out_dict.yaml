@@ -23937,7 +23937,7 @@
 9399:
 - NONE
 9400:
-- FAILED_MOVE
+- NONE
 9402:
 - NONE
 9403:
@@ -40108,193 +40108,273 @@
 19586:
 - FAILED_MOVE
 19640:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19641:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19642:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19643:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19644:
-- FAILED_MOVE
+- gnoll guard
 19645:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19646:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19647:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19648:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19649:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19650:
-- FAILED_MOVE
+- gnoll worker
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19651:
-- FAILED_MOVE
+- gnoll worker
+- gnoll thief
+- gnoll ranger
 19652:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19653:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19654:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19655:
-- FAILED_MOVE
+- gnoll thief
+- gnoll ranger
+- gnoll guard
 19656:
-- FAILED_MOVE
+- gnoll guard
 19657:
-- FAILED_MOVE
+- gnoll guard
 19658:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19659:
-- FAILED_MOVE
+- gnoll guard
 19660:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19661:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19662:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19663:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19664:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19665:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19666:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19667:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19668:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19669:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19670:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19671:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19672:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19673:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19674:
-- FAILED_MOVE
+- NONE
 19675:
-- FAILED_MOVE
+- NONE
 19676:
-- FAILED_MOVE
+- NONE
 19677:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19678:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19679:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19680:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19681:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19682:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19683:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19684:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19685:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19686:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19687:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19688:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19689:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19690:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19691:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19692:
-- FAILED_MOVE
+- gnoll guard
+- gnoll priest
 19693:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19694:
-- FAILED_MOVE
+- gnoll worker
+- gnoll guard
 19695:
-- FAILED_MOVE
+- NONE
 19696:
-- FAILED_MOVE
+- NONE
 19697:
-- FAILED_MOVE
+- NONE
 19698:
-- FAILED_MOVE
+- NONE
 19699:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19700:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19701:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19702:
-- FAILED_MOVE
+- gnoll priest
 19703:
-- FAILED_MOVE
+- gnoll priest
 19704:
-- FAILED_MOVE
+- gnoll priest
 19705:
-- FAILED_MOVE
+- gnoll guard
 19706:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19707:
-- FAILED_MOVE
+- NONE
 19708:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19709:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19710:
-- FAILED_MOVE
+- gnoll guard
 19711:
-- FAILED_MOVE
+- gnoll guard
 19712:
-- FAILED_MOVE
+- gnoll guard
 19713:
-- FAILED_MOVE
+- NONE
 19714:
-- FAILED_MOVE
+- gnoll guard
 19715:
-- FAILED_MOVE
+- gnoll priest
 19716:
-- FAILED_MOVE
+- gnoll priest
 19717:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19718:
-- FAILED_MOVE
+- gnoll priest
+- gnoll jarl
 19719:
-- FAILED_MOVE
+- gnoll guard
 19720:
-- FAILED_MOVE
+- gnoll guard
 19721:
-- FAILED_MOVE
+- gnoll guard
 19722:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19723:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19724:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19725:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19726:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19727:
-- FAILED_MOVE
+- NONE
 19728:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19729:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19730:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19731:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19732:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19733:
-- FAILED_MOVE
+- gnoll worker
+- gnoll priest
 19782:
 - FAILED_MOVE
 19903:
@@ -40454,53 +40534,54 @@
 19989:
 - NONE
 19990:
-- FAILED_MOVE
+- NONE
 19991:
-- FAILED_MOVE
+- NONE
 19992:
-- FAILED_MOVE
+- NONE
 19993:
-- FAILED_MOVE
+- NONE
 19994:
-- FAILED_MOVE
+- gnoll guard
 19995:
-- FAILED_MOVE
+- gnoll guard
 19996:
-- FAILED_MOVE
+- gnoll guard
 19997:
-- FAILED_MOVE
+- gnoll guard
 19998:
-- FAILED_MOVE
+- gnoll guard
 19999:
-- FAILED_MOVE
+- gnoll guard
 20000:
-- FAILED_MOVE
+- gnoll guard
 20001:
-- FAILED_MOVE
+- gnoll guard
 20002:
-- FAILED_MOVE
+- gnoll guard
 20003:
-- FAILED_MOVE
+- gnoll guard
 20004:
-- FAILED_MOVE
+- gnoll guard
 20005:
-- FAILED_MOVE
+- gnoll guard
 20006:
-- FAILED_MOVE
+- gnoll guard
 20007:
-- FAILED_MOVE
+- gnoll guard
 20008:
-- FAILED_MOVE
+- gnoll guard
 20009:
-- FAILED_MOVE
+- gnoll guard
 20010:
-- FAILED_MOVE
+- gnoll guard
 20011:
-- FAILED_MOVE
+- NONE
 20012:
-- FAILED_MOVE
+- gnoll guard
 20013:
-- FAILED_MOVE
+- gnoll miner
+- gnoll guard
 20014:
 - NONE
 20015:
